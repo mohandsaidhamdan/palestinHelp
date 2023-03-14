@@ -1,0 +1,38 @@
+package com.example.spalesatin.model2
+
+class helps (
+    var name : String = "",
+    var Title : String = "",
+    var Worke: String = "",
+    var halaEconomy: String = "",
+    var numberID : String = "",
+    var id : String = "",
+    var numberFamly : String = "",
+    var phone : String = "",
+    var halaSocial : String = "",
+    var date: String = "",
+    var hala: String = "",
+    var dayf: String = "",
+    var firstNumberPeople: String = "",
+    var halaEconomy2: String = "",
+    var helps: String = "",
+    var helps2: String = "",
+    var halaMar: String = "",
+    var home: String = "",
+    var number: String = "",
+    var numberM: String = "",
+    var numberS: String = "",
+    var numberF: String = "",
+    var numberM2: String = "",
+    var numberS2: String = "",
+    var numberF2: String = "",
+    var scendNumberPeople: String = "",
+    var type: String = "",
+    var yearF: String = "",
+    var day: String = "",
+    var MONTH: String = "",
+    var year: String = "",
+    var scend: String = "",
+    var monthF: String = ""
+        ) {
+}

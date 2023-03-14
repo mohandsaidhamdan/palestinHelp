@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context=".detaliess.details_h">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardetelis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2061FFCD"
+        android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:backgroundTint="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvame"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:text="الإسم "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvitle"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:text="العنوان"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvitl"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:text="الحالة الإجتماعية "
+
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvtle"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvile"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:text="طبيعة المسكن"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:text="العنوان"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvate"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:text="العمل"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:backgroundTint="@color/black" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="1dp"
+            android:backgroundTint="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="356dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="732dp"
+        android:layout_height="364dp"
+
+        android:padding="0dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardetelis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

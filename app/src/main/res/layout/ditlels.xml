@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@color/teal_200"
+        android:padding="4sp"
+        android:text="تفاصيل المساعدة"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="702dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="رقم الهوية المستلم"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/numberId"
+                    style="@style/my_input"
+                    android:layout_margin="6dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:textColorHint="#807F7F" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="اسم الجهة المانحة"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/text_name_helps"
+                    style="@style/my_input"
+                    android:layout_margin="6dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:textColorHint="#807F7F" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="نوع المساعدة"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/text_type"
+                    style="@style/my_input"
+                    android:layout_margin="6dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:textColorHint="#807F7F" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="تاريخ المساعدة"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textdate"
+                    style="@style/my_input"
+                    android:layout_margin="6dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:textColorHint="#807F7F" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btn_add_helps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginRight="15dp"
+                android:text="إضافة المساعدة"
+                android:textColor="#EDEDED"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

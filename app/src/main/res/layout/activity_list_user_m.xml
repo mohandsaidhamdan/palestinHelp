@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list_mrsh.list_user_m">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    tools:ignore="RtlHardcoded">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:backgroundTint="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:id="@+id/text_ch"
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="تأكيد الترشيح"
+                            android:layout_marginTop="3dp"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:id="@+id/text_name"
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="الإسم"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:id="@+id/text_name2"
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="مرشح الإسم"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="نوع المساعدة"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:layout_marginTop="3dp"
+                            android:text="الحالة الإجتماعية"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="34dp"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="عدد الأسرة"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="تاريخ الترشيح"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="الهاتف"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="العنوان"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+
+                        <TextView
+                            android:id="@+id/text_name3"
+                            android:layout_width="100dp"
+                            android:layout_height="34dp"
+                            android:padding="1dp"
+                            android:text="رقم الهوية"
+                            android:layout_marginTop="3dp"
+                            android:textAlignment="center"
+                            android:textSize="16dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:backgroundTint="@color/black" />
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rrecc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

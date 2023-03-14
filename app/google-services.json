@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "182580886571",
+    "project_id": "palestain-51792",
+    "storage_bucket": "palestain-51792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182580886571:android:9afc65bf702e77cde6be6e",
+        "android_client_info": {
+          "package_name": "com.example.palestain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182580886571-7m4rmfsq02rs3gv4hob74s61dmthrj2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8PatkfUI5ST8Z23xzMNpRQrajZR80LgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182580886571-7m4rmfsq02rs3gv4hob74s61dmthrj2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182580886571:android:13c771660ca0374de6be6e",
+        "android_client_info": {
+          "package_name": "com.example.spalesatin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182580886571-7m4rmfsq02rs3gv4hob74s61dmthrj2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8PatkfUI5ST8Z23xzMNpRQrajZR80LgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182580886571-7m4rmfsq02rs3gv4hob74s61dmthrj2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

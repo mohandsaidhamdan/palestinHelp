@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list_frsgment.acount_fragment">
+
+
+    <EditText
+        android:id="@+id/text_name_f"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_add_peplo_f"
+        android:drawablePadding="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="#807F7F"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_password_f"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_clok_f"
+        android:drawablePadding="12dp"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:padding="12dp"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_email_f" />
+
+    <EditText
+        android:id="@+id/text_email_f"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/inputshape"
+        android:drawablePadding="12dp"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_name_f" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="حفظ التعديلات"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_password_f" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

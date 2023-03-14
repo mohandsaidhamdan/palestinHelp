@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">مساعدات فلسطين</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">الإسم</string>
+    <string name="password">كلمة السر</string>
+
+    <!-- recView name title-->
+    <string name="name_r">الإسم</string>
+    <string name="name_title">العنوان</string>
+    <string name="name_r2">الوضع الإقتصادي</string>
+    <string name="name_r3">رقم الهوية</string>
+    <string name="name_r4">الحالة الإجتماعية</string>
+    <string name="name_r5">عدد الأسرة</string>
+    <string name="name_r6">العمل</string>
+    <string name="name_r7">الهاتف</string>
+    <string name="name_r8">الحالة المرضية</string>
+    <string name="nameCard">كشف المرشحين</string>
+    <string name="nameButtonAddHelps">ترشيح أسماء لهذه المساعدة</string>
+    <string name="nameG">الجهة المانحة</string>
+    <string name="Register">إنشاء حساب جديد</string>
+    <string name="mobile">رقم الجوال</string>
+    <string name="title">العنوان</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="passwordORemailError">كلمة السر أو الإيميل خطأ</string>
+    <string name="confirmPassword">تأكيد كلمة السر</string>
+    <string name="home4">إضافة طلب جديد</string>
+    <string name="home7">طلبات الترشيح</string>
+    <string name="tr">ترشيح  </string>
+    <string name="saveUpdate">ححفظ التعديلات</string>
+    <string name="nameTR">اسم المرشح</string>
+    <string name="tracheOkORNO">قبول الترشيح / رفض الترشيح</string>
+    <string name="okOrder">قبول طلب التسجيل بالتطبيق</string>
+
+
+    <string-array name="title">
+        <item id="pa">فلسطين</item>
+        <item id="mo">المجاهدين</item>
+        <item>السلام</item>
+    </string-array>
+
+
+
+
+    <string-array name="date">
+        <item id="between">التاريخ من إلى</item>
+        <item id="min">التاريخ من</item>
+        <item id="all">جميع الأوقات</item>
+    </string-array>
+
+
+    <string-array name="day">
+        <item >01</item>
+        <item >02</item>
+        <item>03</item>
+        <item >04</item>
+        <item >05</item>
+        <item>06</item>
+        <item >07</item>
+        <item >08</item>
+        <item>09</item>
+        <item >10</item>
+        <item >11</item>
+        <item >12</item>
+        <item>13</item>
+        <item >14</item>
+        <item >15</item>
+        <item>16</item>
+        <item >17</item>
+        <item >18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+
+    </string-array>
+
+    <string-array name="month">
+    <item >01</item>
+    <item >02</item>
+    <item>03</item>
+    <item >04</item>
+    <item >05</item>
+    <item>06</item>
+    <item >07</item>
+    <item >08</item>
+    <item>09</item>
+    <item >10</item>
+    <item >11</item>
+    <item >12</item>
+    </string-array>
+    <string-array name="year">
+    <item >2020</item>
+    <item >2021</item>
+    <item >2022</item>
+    <item >2023</item>
+    <item >2024</item>
+    <item >2025</item>
+    <item >2026</item>
+    <item >2027</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+    <string-array name="marid">
+        <item>متزوج</item>
+        <item>أعزب</item>
+        <item>مطلق</item>
+        <item>أرمل</item>
+    </string-array>
+    <string-array name="home">
+        <item>سليم</item>
+        <item>مريض</item>
+        <item>ذوي اعاقة</item>
+        <item>اعاقة بالقدم</item>
+        <item>مريض قلب</item>
+        <item>اعاقة باليد والقدم</item>
+        <item>اعاقة بالبصر او سمع</item>
+        <item>سرطان</item>
+        <item>غير ذلك</item>
+    </string-array>
+    <string-array name="worke">
+        <item>لا يعمل</item>
+        <item>موظف</item>
+        <item>عمل خاص</item>
+
+    </string-array>
+    <string-array name="state">
+        <item>متوسط</item>
+        <item>صعب</item>
+        <item>جيد</item>
+    </string-array>
+    <string-array name="affair">
+        <item>غير مستفيد</item>
+        <item>مستفيد</item>
+
+    </string-array>
+    <string-array name="grant">
+        <item>غير مستفيد</item>
+        <item>مستفيد</item>
+
+    </string-array>
+    <string-array name="time">
+        <item>ساعة</item>
+        <item>4 ساعات</item>
+        <item>8 ساعات</item>
+        <item>12 ساعات</item>
+        <item>يوم</item>
+        <item>أسبوع</item>
+        <item>مفتوح</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list_frsgment.list_aske">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:foregroundGravity="right"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-181dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:scrollbarSize="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="100dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    tools:ignore="RtlHardcoded">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:backgroundTint="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:id="@+id/text_name"
+                            android:layout_width="150sp"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:text="إسم الجهة المانحة"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:text="نوع المساعدة"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:text="تاريخ المساعدة"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:id="@id/textNumber122"
+                            android:layout_width="150sp"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:text="العدد المطلوب"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/black" />
+
+                        <TextView
+                            android:layout_width="170sp"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:text="حالة المساعدة"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:backgroundTint="@color/black" />
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rec_list_aske"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

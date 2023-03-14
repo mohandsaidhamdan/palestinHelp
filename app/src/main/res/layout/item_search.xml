@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:backgroundTint="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_name1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="الإسم"
+                    android:textAlignment="center"
+                    android:textSize="17dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+                <TextView
+                    android:id="@+id/text_name4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textSize="17dp" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_name2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="الجهة المانحة"
+                    android:textAlignment="center"
+                    android:textSize="17dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_name3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="نوع المساعدة"
+                    android:textAlignment="center"
+                    android:textSize="17dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_name5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="تاريخ المساعدة"
+                    android:textAlignment="center"
+                    android:textSize="17dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_name6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="اسم المرشح"
+                    android:textSize="17dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black" />
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:backgroundTint="@color/black" />
+
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
